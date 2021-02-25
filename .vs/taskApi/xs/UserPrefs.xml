@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{487B82BB-B9CC-449B-B37B-753E7CB55C8E}|Default">
   <MonoDevelop.Ide.ItemProperties.taskApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="taskApi/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="taskApi/Startup.cs">
     <Files>
       <File FileName="taskApi/Repositories/ITaskRepository.cs" Line="17" Column="53" />
-      <File FileName="taskApi/Repositories/TaskRepository.cs" Line="65" Column="1" />
-      <File FileName="taskApi/Controllers/TaskController.cs" Line="94" Column="1" />
-      <File FileName="taskApi/Models/TaskModel.cs" Line="9" Column="19" />
-      <File FileName="taskApi/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="taskApi/Repositories/TaskRepository.cs" />
+      <File FileName="taskApi/Controllers/TaskController.cs" />
+      <File FileName="taskApi/Models/TaskModel.cs" />
+      <File FileName="taskApi/appsettings.Development.json" />
       <File FileName="taskApi/Program.cs" Line="16" Column="1" />
+      <File FileName="taskApi/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +21,7 @@
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

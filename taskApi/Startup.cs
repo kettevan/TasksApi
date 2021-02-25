@@ -30,6 +30,11 @@ namespace taskApi
             });
            var sqlConnectionString = Configuration.GetConnectionString("Default");
 
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            });
+
             services.AddDbContext<tasksDBContext>(options =>
         options.UseMySQL(
             sqlConnectionString,
@@ -54,13 +59,13 @@ namespace taskApi
 
             app.UseRouting();
 
-            app.UseCors();
+            app.UseCors(options => options.AllowAnyOrigin());
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers().RequireCors("Task");
+                endpoints.MapControllers();
             });
         }
     }

@@ -2107,7 +2107,7 @@
       "outputPath": "/Users/kettevan/Documents/Tasks/taskApi/taskApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kettevan/.nuget/NuGet/NuGet.Config"
+        "/Users/kettevan/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

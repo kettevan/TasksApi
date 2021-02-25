@@ -9,7 +9,7 @@ namespace taskApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [EnableCors("Task")]
+    [EnableCors("AllowOrigin")]
     public class TaskController :  ControllerBase
     {
         private readonly ITaskRepository _taskRepository;
